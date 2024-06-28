@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Test 02</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Live Test 02</h1>
+        <h2>JavaScript Functions</h2>
+
+        <section>
+            <h2>Calculate Power</h2>
+            <input type="number" id="voltageInput" placeholder="Enter voltage">
+            <input type="number" id="currentInput" placeholder="Enter current">
+            <button onclick="circuitPower()">Calculate Power</button>
+            <p id="powerResult"></p>
+        </section>
+
+        <section>
+            <h2>Find Max Number</h2>
+            <input type="text" id="maxNumberInput" placeholder="Enter numbers separated by commas">
+            <button onclick="findMaxNumber()">Find Max</button>
+            <p id="maxNumberResult"></p>
+        </section>
+
+        <section>
+            <h2>Merge Arrays</h2>
+            <input type="text" id="mergeArray1" placeholder="Enter first array (comma separated)">
+            <input type="text" id="mergeArray2" placeholder="Enter second array (comma separated)">
+            <button onclick="mergeArrays()">Merge</button>
+            <p id="mergeArrayResult"></p>
+        </section>
+
+        <section>
+            <h2>Array Values Types</h2>
+            <input type="text" id="arrayValuesInput" placeholder="Enter array elements (comma separated)">
+            <button onclick="arrayValuesTypes()">Get Types</button>
+            <p id="arrayValuesResult"></p>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
